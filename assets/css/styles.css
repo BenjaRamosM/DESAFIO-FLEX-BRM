@@ -1,0 +1,88 @@
+*{
+    font-family: 'Raleway','sans-serif';
+}
+
+container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+menu{
+    background-color:white;
+    
+    min-height: 100vh;
+    
+    display: flex;
+
+    flex-direction: column;
+    width: 20em;
+    margin: 0em;
+    padding: 0em;
+
+}
+
+section.principal{
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10em;
+    min-height: 100vh;
+    
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.foto{
+    height: 20em;
+    width: 20em;
+}
+
+
+menu li{
+
+    display: flex;
+    width: 14em;
+    justify-content: space-around;
+
+    border-top: 1px solid rgb(59, 55, 55);
+    border-bottom: 1px solid rgb(59, 55, 55);
+    
+    padding: 1em;
+
+}
+
+section.tarjeta{
+    display: flex;
+    flex-direction: column;
+}
+
+
+menu a:hover{
+color: grey;
+}
+
+section.boton{
+
+    background-color: rgb(188, 145, 197);
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+}
+.subtitulo{
+    color: gray;
+}
+
+.foto2{
+    height: 3em;
+    width: 3em;
+    border-radius: 2em;
+}
+
+.foto3{
+    height: 3em;
+    width: 4em;
+}
